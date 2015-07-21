@@ -1,7 +1,9 @@
-# UCI_UROP_WEBRTC
+# WebRTC project at UCI UROP
 
 ### Overview
-WebRTC accomplishes three main tasks: Acquiring audio and video; Communicating Audio and Video; Communicating Arbitrary Data through JavaScript APIs.
+![alt img](https://github.com/UCIUROP2015/UCI_UROP_WEBRTC/blob/master/images/logo-webrtc.png)<br>
+WebRTC is a open source project aiming to enable the web with Real Time Communication (RTC) capabilities.<br>
+We're going to accomplish three main tasks: Acquiring audio and video; Communicating Audio and Video; Communicating Arbitrary Data through JavaScript APIs.
 
 ### What Is Included ?
 This release is composed of three components:
