@@ -4,7 +4,7 @@
 WebRTC accomplishes three main tasks: Acquiring audio and video; Communicating Audio and Video; Communicating Arbitrary Data through JavaScript APIs.
 
 ### What Is Included ?
-This release is composed of two components:
+This release is composed of three components:
 
 1. Web server based on socket.io
 2. HTML5 WebRTC application
