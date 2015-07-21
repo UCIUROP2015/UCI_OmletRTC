@@ -1,6 +1,6 @@
 # UCI_UROP_WEBRTC
 
-## Overview
+### Overview
 WebRTC accomplishes three main tasks: Acquiring audio and video; Communicating Audio and Video; Communicating Arbitrary Data through JavaScript APIs.
 
 ### What Is Included ?
