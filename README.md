@@ -20,3 +20,7 @@ This release is composed of three components:
 * Chrome 25.0+ (28.0+ for best performance)
 * Firefox 22.0+
 * Chrome 29.0+ on Android
+
+### Reference
+[Developers - Omlet](http://www.omlet.me/developers/)
+[WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/2015/WD-webrtc-20150210/)
