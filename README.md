@@ -22,6 +22,5 @@ This release is composed of three components:
 * Chrome 29.0+ on Android
 
 ### Reference
-[Developers - Omlet](http://www.omlet.me/developers/)
-
+[Developers - Omlet](http://www.omlet.me/developers/)<br>
 [WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/2015/WD-webrtc-20150210/)
