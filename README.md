@@ -4,7 +4,7 @@
 WebRTC is a open source project aiming to enable the web with Real Time Communication (RTC) capabilities.<br>
 We're going to accomplish three main tasks: Acquiring audio and video; Communicating Audio and Video; Communicating Arbitrary Data through JavaScript APIs.
 
-## What is webRTC?
+## What is WebRTC?
 ![alt img](https://github.com/UCIUROP2015/UCI_UROP_WEBRTC/blob/master/images/logo-webrtc.png)<br>
 webRTC is a new webstandard being developed for peer-to-peer communication on the web. This means that browsers will be able to send information, without sending information through the server. Server side this will reduce load dramatically.
 
