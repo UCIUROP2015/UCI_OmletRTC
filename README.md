@@ -1,8 +1,9 @@
-# WebRTC project at UCI UROP
+# OmletRTC project
+### WebRTC open source project enhancement and related integrated online service and product devleopment at UCI
 
 ## Overview
-WebRTC is a open source project aiming to enable the web with Real Time Communication (RTC) capabilities.<br>
-We're going to accomplish three main tasks: Acquiring audio and video; Communicating Audio and Video; Communicating Arbitrary Data through JavaScript APIs.
+OmletRTC provides you utilize WebRTC "getUserMedia" API into your code to make your idea be real. 
+We focus on video communication between peers─namely video chatting. Now you can create your own service with OmletRTC easier and quickly
 
 ## What is WebRTC?
 ![alt img](https://github.com/UCIUROP2015/UCI_UROP_WEBRTC/blob/master/images/logo-webrtc.png)<br>
