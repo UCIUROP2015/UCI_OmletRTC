@@ -33,6 +33,47 @@ This release is composed of three components:
 
 ## Example code
 
+### Omlet
+```javascript
+<script>
+  // How to initialize documents information. For example,
+  omletrtc.initConnection = function () {
+    var info = {
+      'id' : Omlet.getIdentity(),
+      'numOfUser' : 0,
+      'timestamp' : Date.now()
+    };
+    return info;
+  };
+
+  // How to update documents information
+  // You can create, get and update documents using these function
+  Omlet.document = {
+    create: function(success, error),
+    get: function(reference, success, error),
+    update: function(reference, func, parameters, success, error),
+    watch: function(reference, onUpdate, success, error),
+    unwatch: function(reference, success, error)
+  }
+  
+  // How to add message into documents
+  // Function for parameter handling documentApi.update
+  omletrtc.addMessage = function (old, parameters) {
+    old.numOfUser = old.numOfUser + 1;
+    old.timestamp = Date.now();
+    return old;
+  };
+  
+  // How to handle message
+  omletrtc.handleMessage = function (doc) {
+    if (doc.numOfUser > 2) return ;
+    if (doc.id.name === Omlet.getIdentity().name) {
+      log('[+] sender: ' + doc.id.name + ', receiver: ' + Omlet.getIdentity().name);
+    }
+  };
+</script>
+```
+
 ### Client
 
 ```html
@@ -41,7 +82,9 @@ This release is composed of three components:
 
 <script src="/omletrtc.io.js"></script>
 <script>
-
+  navigator.getUserMedia(omletrtc.constraints, omletrtc.handleUserMedia, function (error) {
+    log("[-] getUserMedia: " + error);
+  });
 </script>
 ```
 
